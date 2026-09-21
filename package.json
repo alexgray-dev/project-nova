@@ -1,0 +1,23 @@
+{
+  "name": "project-nova",
+  "version": "1.0.0",
+  "description": "Node.js Express user management API with in-memory model, logger middleware, and Jest tests",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
